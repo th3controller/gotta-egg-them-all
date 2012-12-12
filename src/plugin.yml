@@ -1,0 +1,80 @@
+﻿name: GETA
+version: 2.0
+main: be.th3controller.geta.GETA
+permissions:
+    geta.*:
+      description: Allows to egg all animals
+      children:
+        geta.pig: true
+        geta.sheep: true
+        geta.cow: true
+        geta.chicken: true
+        geta.squid: true
+        geta.wolf: true
+        geta.mooshroom: true
+        geta.ocelot: true
+        geta.villager: true
+    geta.zombie:
+      description: Allows to egg pigs
+      default: op
+    geta.spider:
+      description: Allows to egg pigs
+      default: op
+    geta.skeleton:
+      description: Allows to egg pigs
+      default: op
+    geta.ghast:
+      description: Allows to egg pigs
+      default: op
+    geta.creeper:
+      description: Allows to egg pigs
+      default: op
+    geta.pig:
+      description: Allows to egg pigs
+      default: op
+    geta.blaze:
+      description: Allows to egg pigs
+      default: op
+    geta.cavespider:
+      description: Allows to egg pigs
+      default: op
+    geta.bat:
+      description: Allows to egg pigs
+      default: op
+    geta.enderman:
+      description: Allows to egg pigs
+      default: op
+    geta.pigzombie:
+      description: Allows to egg pigs
+      default: op
+    geta.sheep:
+      description: Allows to egg sheep
+      default: op
+    geta.cow:
+      description: Allows to egg cow
+      default: op
+    geta.chicken:
+      description: Allows to egg chicken
+      default: op
+    geta.squid:
+      description: Allows to egg squid
+      default: op
+    geta.wolf:
+      description: Allows to egg wolf
+      default: op
+    geta.mooshroom:
+      description: Allows to egg mooshroom
+      default: op
+    geta.ocelot:
+      description: Allows to egg ocelot
+      default: op
+    geta.villager:
+      description: Allows to egg villager
+      default: op
+commands:
+   geta:
+      description: Displays version number of GETA
+      usage: /<command>
+      aliases: gottaeggthemall
+      permission: geta.version
+      permission-message: You don't have insufficient permissions to do this command.
