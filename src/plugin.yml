@@ -1,75 +1,81 @@
 ﻿name: GETA
-version: 2.0
+version: 2.0.0
 main: be.th3controller.geta.GETA
 permissions:
-    geta.*:
-      description: Allows to egg all animals
+    geta.friendly:
+      description: Allows to egg all friendly mobs
       children:
-        geta.pig: true
-        geta.sheep: true
-        geta.cow: true
+        geta.bat: true
         geta.chicken: true
-        geta.squid: true
-        geta.wolf: true
         geta.mooshroom: true
         geta.ocelot: true
+        geta.pig: true
+        geta.sheep: true
+        geta.squid: true
         geta.villager: true
-    geta.zombie:
-      description: Allows to egg pigs
-      default: op
-    geta.spider:
-      description: Allows to egg pigs
-      default: op
-    geta.skeleton:
-      description: Allows to egg pigs
-      default: op
-    geta.ghast:
-      description: Allows to egg pigs
-      default: op
-    geta.creeper:
-      description: Allows to egg pigs
-      default: op
-    geta.pig:
-      description: Allows to egg pigs
-      default: op
-    geta.blaze:
-      description: Allows to egg pigs
-      default: op
-    geta.cavespider:
-      description: Allows to egg pigs
-      default: op
+    geta.neutral:
+      description: Allows to egg all neutral mobs
+      children:
+        geta.enderman: true
+        geta.wolf: true
+        geta.pigzombie: true
+    geta.hostile:
+      description: Allows to egg all hostile mobs
+      children:
+        geta.blaze: true
+        geta.cavespider: true
+        geta.creeper: true
+        geta.ghast: true
+        geta.magmacube: true
+        geta.silverfish: true
+        geta.skeleton: true
+        geta.slime: true
+        geta.spider: true
+        geta.witch: true
+        geta.zombie: true
     geta.bat:
-      description: Allows to egg pigs
-      default: op
-    geta.enderman:
-      description: Allows to egg pigs
-      default: op
-    geta.pigzombie:
-      description: Allows to egg pigs
-      default: op
-    geta.sheep:
-      description: Allows to egg sheep
-      default: op
-    geta.cow:
-      description: Allows to egg cow
       default: op
     geta.chicken:
-      description: Allows to egg chicken
-      default: op
-    geta.squid:
-      description: Allows to egg squid
-      default: op
-    geta.wolf:
-      description: Allows to egg wolf
       default: op
     geta.mooshroom:
-      description: Allows to egg mooshroom
       default: op
     geta.ocelot:
-      description: Allows to egg ocelot
+      default: op
+    geta.pig:
+      default: op
+    geta.sheep:
+      default: op
+    geta.squid:
       default: op
     geta.villager:
-      description: Allows to egg villager
+      default: op
+    geta.enderman:
+      default: op
+    geta.wolf:
+      default: op
+    geta.pigzombie:
+      default: op
+    geta.blaze:
+      default: op
+    geta.cavespider:
+      default: op
+    geta.creeper:
+      default: op
+    geta.ghast:
+      default: op
+    geta.magmacube:
+      default: op
+    geta.silverfish:
+      default: op
+    geta.skeleton:
+      default: op
+    geta.slime:
+      default: op
+    geta.spider:
+      default: op
+    geta.witch:
+      default: op
+    geta.zombie:
       default: op
 commands:
    geta:
