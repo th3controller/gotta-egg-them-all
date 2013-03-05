@@ -77,7 +77,7 @@ public class GETAListener implements Listener {
 		short endid = rightclick.getType().getTypeId();
 		Location loc = rightclick.getLocation();
 		PlayerInventory inventory = p.getInventory();
-		if(p.getItemInHand().getType() == Material.STICK) {
+		if(p.getItemInHand().getTypeId() == plugin.getConfig().getInt("catchingitem", 280)) {
 			if(rightclick instanceof Bat && hasPerms("geta.bat", p)) {
 				spawninstance(p, rightclick, loc, inventory, nameent, endid);
 			}
